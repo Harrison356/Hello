@@ -9,12 +9,21 @@
 
   <style>
     .flex {
-      display: flex;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    }
 
-      flex-wrap: wrap;
-
-      align-content: space-between;
-      flex-direction: row-reverse;
+    .flex .item:nth-of-type(1),
+    .flex .item:nth-of-type(4){
+      font-size: 15rem;
+      align-self: flex-start;
+    }
+    
+    .flex .item:nth-of-type(5){
+      font-size: 15rem;
+      align-self: flex-end;
     }
   </style>
 </head>
