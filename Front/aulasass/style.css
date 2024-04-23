@@ -1,7 +1,11 @@
-p {
-  background: green; }
+.btn, .btn-laranja {
+  width: 200px;
+  padding: 10px 0;
+  background: none;
+  border: 0;
+  border-radius: 10px; }
 
-body {
-  color: blue; }
+.btn-laranja {
+  background: orange; }
 
 /*# sourceMappingURL=style.css.map */
