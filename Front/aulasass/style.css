@@ -1,37 +1,3 @@
-.btn {
-  width: 200px;
-  padding: 10px 0;
-  background: none;
-  border: 0;
-  border-radius: 10px;
-  display: block;
-  margin: 10px 0; }
-  .btn.btn-laranja {
-    background-color: orange;
-    color: #fff; }
-    .btn.btn-laranja:hover {
-      background: gray;
-      /*background: mix($background, green);*/
-      /*background: desaturate($background, 20%);*/
-      /*background: darken($background, 20%);*/ }
-  .btn.btn-roxo {
-    background-color: purple;
-    color: #fff; }
-    .btn.btn-roxo:hover {
-      background: #404040;
-      /*background: mix($background, green);*/
-      /*background: desaturate($background, 20%);*/
-      /*background: darken($background, 20%);*/ }
-  .btn.btn-amarelo {
-    background-color: yellow;
-    color: black; }
-    .btn.btn-amarelo:hover {
-      background: gray;
-      /*background: mix($background, green);*/
-      /*background: desaturate($background, 20%);*/
-      /*background: darken($background, 20%);*/ }
-
-p {
-  color: orange; }
-
+.btn{width:200px;padding:10px 0;background:none;border:0;border-radius:10px;display:block;margin:10px 0}.btn.btn-laranja{background-color:orange;color:#fff}.btn.btn-laranja:hover{background:gray}.btn.btn-roxo{background-color:purple;color:#fff}.btn.btn-roxo:hover{background:#404040}.btn.btn-amarelo{background-color:#ff0;color:#000}.btn.btn-amarelo:hover{background:gray}p{color:orange}
 /*# sourceMappingURL=style.css.map */
+/*--style compressed e --watch para sempre atualizar no css */
