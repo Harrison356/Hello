@@ -1,6 +1,14 @@
 @mixin button-style($background, $color){
     background-color: $background;
     color: $color;
+    &:hover{
+        background: grayscale($background);
+        /*background: mix($background, green);*/
+        /*background: desaturate($background, 20%);*/
+        /*background: darken($background, 20%);*/
+
+
+    }
 }
 
 

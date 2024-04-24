@@ -9,12 +9,27 @@
   .btn.btn-laranja {
     background-color: orange;
     color: #fff; }
+    .btn.btn-laranja:hover {
+      background: gray;
+      /*background: mix($background, green);*/
+      /*background: desaturate($background, 20%);*/
+      /*background: darken($background, 20%);*/ }
   .btn.btn-roxo {
     background-color: purple;
     color: #fff; }
+    .btn.btn-roxo:hover {
+      background: #404040;
+      /*background: mix($background, green);*/
+      /*background: desaturate($background, 20%);*/
+      /*background: darken($background, 20%);*/ }
   .btn.btn-amarelo {
     background-color: yellow;
     color: black; }
+    .btn.btn-amarelo:hover {
+      background: gray;
+      /*background: mix($background, green);*/
+      /*background: desaturate($background, 20%);*/
+      /*background: darken($background, 20%);*/ }
 
 p {
   color: orange; }
