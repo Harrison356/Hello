@@ -13,7 +13,7 @@
 
     <div class="container" id="container">
         <div class="form-container sign-up">
-            <form>
+            <form action="register.php" method="post">
                 <h1>Crie sua Conta</h1>
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
@@ -22,14 +22,14 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>ou use seu e-mail para cadastro</span>
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Senha">
-                <button>Enviar</button>
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Senha" required>
+                <button type="submit">Enviar</button>
             </form>
         </div>
         <div class="form-container sign-in">
-            <form>
+            <form action="login.php" method="post">
                 <h1>Login</h1>
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
@@ -38,10 +38,10 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>ou use sua senha de e-mail</span>
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Senha">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Senha" required>
                 <a href="#">Esqueceu sua senha?</a>
-                <button>Entrar</button>
+                <button type="submit">Entrar</button>
             </form>
         </div>
         <div class="toggle-container">
